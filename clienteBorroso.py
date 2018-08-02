@@ -10,7 +10,7 @@ from sympy import *
 
 t = Symbol('t')
 
-ipBroker = "192.168.1.131" # DIRECCION IP DEL BROKER
+ipBroker = "192.168.0.0" # DIRECCION IP DEL BROKER
 
 contador = 0
 
