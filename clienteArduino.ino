@@ -42,9 +42,9 @@ NewPing sonar[numUltra] = { // Sensor object array.
   NewPing(13, 12)
 };
 
-IPAddress server(192, 168, 1, 131);     // Direccion IP del Broker
-char ssid[] = "JAZZTEL_dbhm";           // Nombre del Punto de Acceso
-char pass[] = "enkgws4ndjxu";           // Contrasena
+IPAddress server(..., ..., ..., ...);     // Direccion IP del Broker
+char ssid[] = "...";           // Nombre del Punto de Acceso
+char pass[] = "...";           // Contrasena
 int status = WL_IDLE_STATUS;            // Estado del WiFi
 
 // Creacion del cliente ESP
